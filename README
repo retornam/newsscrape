@@ -1,0 +1,17 @@
+This code crawls the  http://news.ycombinator.com homepage for the top 20 posts
+and saves the links and titles to a sqlite database.
+
+I have this running on a linux machine via cron every 10 minutes. Hopefully
+pg does ban me  :)
+
+TODO
+* Add a way to tweet most recent items
+* shorten links with url shortener like is.gd or bit.ly
+* someday perform some analysis on the data collected
+* Scrape not only the link and titles but the number of comments and the ranking
+of the link on the page and possibly the submitter. This will be helpful in
+determining the user with most submissions in top 20. I also need to change
+the current date/time format from Pacific time to UTC.
+
+
+
